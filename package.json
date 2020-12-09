@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Dayanaferrer/ProjetoFinalReprograma#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
   }
 }
