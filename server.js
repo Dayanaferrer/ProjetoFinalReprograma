@@ -1,7 +1,7 @@
 const app = require("./src/app");
 const dotenv = require("dotenv")
 const PORT = process.env.PORT || 8080
-const errorhandler = require('errorhandler')
+
 
 dotenv.config()
 
