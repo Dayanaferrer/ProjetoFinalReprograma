@@ -5,7 +5,6 @@ const errorhandler = require('errorhandler')
 
 dotenv.config()
 
-
 if (process.env.NODE_ENV === "development") {
   app.use(errorHandler())
 } else {
