@@ -12,7 +12,7 @@ const getAllInstitutions = (req, res) => {
 
 const getByOrganizatioName = (req, res) => {
     const name = req.params.name
-    institutions.find({ name }, function (err, institutions) {
+    institutions.find({ name },  (err, institutions)=> {
         if (err) {
             res.status(500).send({ message: err.message })
         } else {
